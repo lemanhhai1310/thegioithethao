@@ -1,0 +1,18 @@
+.breadcrumb1{
+  @media(max-width: 560px){
+    margin-bottom: 0 !important;
+  }
+  li{
+    padding: 10px 0;
+    span{
+      font-family: 'Helvetica Neue Regular';
+      color: #111111;
+    }
+  }
+  >li{
+    >span{
+      font-family: 'Helvetica Neue Bold';
+      color: #000 !important;
+    }
+  }
+}

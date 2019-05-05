@@ -1,0 +1,87 @@
+.title_goctuvan{
+  font-family: 'Helvetica Neue Bold';
+  font-size: 14px;
+  margin: 0;
+  a{
+    color: #111111;
+  }
+}
+.date-create{
+  time{
+    font-size: 14px;
+    font-family: 'Helvetica Neue Regular';
+    color: #666666;
+  }
+}
+.title_new{
+  color: #000;
+  font-family: 'Helvetica Neue Bold';
+  font-size: 28px;
+}
+.desc_news{
+  color: #000;
+  font-family: 'Helvetica Neue Bold';
+  font-size: 15px;
+  margin-top: 0;
+}
+.list_news1{
+  position: relative;
+  padding-left: 20px;
+  margin-left: 10px;
+  &:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #ef0505;
+  }
+  li{
+    display: table-row;
+    padding: 5px 0;
+    &:nth-child(n+2){
+      margin: 0;
+    }
+    >*{
+      display: table-cell;
+      vertical-align: middle;
+    }
+    time{
+      min-width: 80px;
+    }
+    a,
+    b{
+      color: #ef0505;
+      font-family: 'Helvetica Neue Bold';
+      font-size: 14px;
+    }
+  }
+}
+.box_article_news{
+  >*,
+  address,
+  p{
+    font-size: 15px;
+    font-family: 'Helvetica Neue Regular';
+    color: #000;
+  }
+}
+.news1{
+  margin: 0;
+  li{
+    padding: 0;
+    &:nth-child(n+2){
+      &:before{
+        content: '|';
+        margin: 0 5px;
+        color: #666666 !important;
+      }
+    }
+    a{
+      color: #666666 !important;
+      text-transform: inherit !important;
+      font-size: 14px;
+    }
+  }
+}

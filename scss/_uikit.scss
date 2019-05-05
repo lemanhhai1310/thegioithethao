@@ -1,0 +1,141 @@
+@media(min-width: 960px){
+  .uk-grid-medium\@m{
+    margin-left: -30px !important;
+    >*{
+      padding-left: 30px !important;
+    }
+  }
+  .uk-grid-small\@m{
+    margin-left: -15px !important;
+    >*{
+      padding-left: 15px !important;
+
+    }
+  }
+  .uk-flex-row\@m{
+    flex-direction: row;
+  }
+  .uk-form-large\@m{
+    height: 55px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .uk-button-large\@m{
+    padding: 0 40px;
+    line-height: 53px;
+    font-size: .875rem;
+  }
+  .uk-margin-remove\@m{
+    margin: 0 !important;
+  }
+  .uk-position-center-right-out\@m{
+    left: 100%;
+    width: -moz-max-content;
+    width: max-content;
+
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+@media(min-width: 1200px){
+  .uk-child-width-1-10\@l{
+    >*{
+      width: 10%;
+    }
+  }
+}
+@media(max-width: 560px){
+  .p-s-0{
+    padding: 0 !important;
+  }
+}
+@media(min-width: 560px){
+  .uk-padding-remove-right\@s{
+    padding-right: 0 !important;
+  }
+  .uk-padding-remove-top\@s{
+    padding-top: 0 !important;
+  }
+  .uk-padding-remove-bottom\@s{
+    padding-bottom: 0 !important;
+  }
+  .uk-width-1-1\@s{
+    width: 100% !important;
+  }
+}
+@media(max-width: 560px){
+  .uk-padding-remove\@s{
+    padding: 0 !important;
+  }
+}
+//=====================================
+.uk-height-min-large{
+  min-height: 450px;
+}
+.uk-height-min-small{
+  min-height: 150px;
+}
+//=====================================
+.uk-text-white{
+  color: #ffffff !important;
+}
+//=====================================
+.bg-white{
+  background-color: #fff !important;
+}
+.bg-gray{
+  background-color: #f0f0f0 !important;
+}
+.bg-transparent{
+  background-color: transparent !important;
+}
+//=====================================
+.border-0{
+  border: none !important;
+}
+
+.uk-grid-collapse{
+  margin-left: 0 !important;
+  >*{
+    padding-left: 0 !important;
+  }
+}
+
+.uk-grid-medium{
+  .uk-margin-small-top{
+    @media(min-width: 960px){
+      margin-top: 30px !important;
+    }
+  }
+}
+.uk-grid-divider{
+  @media(max-width: 960px){
+    &.small{
+      .uk-grid-margin{
+        margin-top: 0px;
+        &:before{
+          top: 0px;
+        }
+      }
+    }
+  }
+  &.uk-grid-stack{
+    .uk-grid-margin{
+      &:before{
+        //left: 0 !important;
+      }
+    }
+  }
+  &.uk-grid-collapse{
+    >div{
+      &:not(.uk-first-column){
+        &:before{
+          left: 0 !important;
+        }
+      }
+    }
+  }
+}
+.uk-navbar-transparent{
+  background-color: transparent;
+}

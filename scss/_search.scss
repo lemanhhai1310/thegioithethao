@@ -1,0 +1,86 @@
+.title_filter{
+  font-size: 16px;
+  font-family: 'Helvetica Neue Bold';
+  color: #000;
+  @media(max-width: 560px){
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+.title_txt{
+  font-size: 15px;
+  font-family: 'Helvetica Neue Bold';
+  color: #000;
+  background-color: #ebe9e9;
+  border: 1px solid #e1e1e1;
+  border-top-color: #666666;
+  padding: 8px 12px;
+  margin: 0;
+}
+.list1_filter{
+  @media(max-width: 560px){
+    padding: 0 12px;
+  }
+  li{
+    a{
+      color: #000;
+      label{
+        color: #000;
+        font-family: 'Helvetica Neue Regular';
+        font-size: 14px;
+      }
+    }
+  }
+}
+.btn-filter{
+  text-transform: inherit;
+  background-color: #bb0303;
+  border-color: #bb0303;
+  line-height: 24px;
+  padding: 0 5px;
+  border-radius: 4px;
+}
+#amount{
+  color: #000 !important;
+  text-align: left;
+  background-color: transparent;
+  font-family: 'Helvetica Neue Regular';
+  font-size: 14px;
+}
+.txt_price{
+  color: #000 !important;
+  font-family: 'Helvetica Neue Regular';
+  font-size: 14px;
+}
+.title_kq{
+  font-size: 18px !important;
+  font-family: 'Helvetica Neue Regular';
+  color: #000;
+  span{
+    font-family: 'Helvetica Neue Bold';
+    color: #bb0303;
+  }
+}
+.box3{
+  background-color: #ebe9e9;
+  border: 1px solid #e1e1e1;
+  padding: 10px 10px;
+}
+.txt4{
+  color: #000 !important;
+  font-size: 14px;
+  font-family: 'Helvetica Neue Regular';
+}
+.btn4{
+  text-transform: inherit;
+  border-color: #e1e1e1;
+  color: #000;
+  background-color: #fff !important;
+  font-size: 15px;
+  font-family: 'Helvetica Neue Regular';
+  &.uk-active{
+    background-color: #000000 !important;
+    border-color: #000 !important;
+    color: #FFFFFF;
+  }
+}

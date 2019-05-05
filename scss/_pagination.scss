@@ -1,0 +1,32 @@
+.uk-pagination{
+  margin-left: -10px;
+  li{
+    padding-left: 10px !important;
+    &.uk-active{
+      >span{
+        background-color: #ef0505;
+        color: #FFFFFF;
+      }
+    }
+    >a{
+      &:hover{
+        background-color: #ef0505;
+        color: #FFFFFF;
+      }
+    }
+    >span{
+
+    }
+    >a,>span{
+      width: 36px;
+      height: 36px;
+      background-color: #f0f0f0;
+      color: #111111;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Helvetica Neue Regular';
+      font-size: 15px;
+    }
+  }
+}

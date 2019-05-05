@@ -1,0 +1,21 @@
+.box_img1{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  & + span{
+
+  }
+}
+#mobile_menu{
+  >ul{
+    >li{
+      >a{
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+  }
+}

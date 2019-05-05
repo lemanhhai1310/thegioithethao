@@ -1,0 +1,32 @@
+.comment2{
+  &:nth-child(n+2){
+    border-top: 1px solid #ececec;
+    padding-top: 15px;
+  }
+  img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    background-color: #666666;
+  }
+}
+.title_c1{
+  font-family: 'OpenSans-Bold';
+  color: #000;
+  font-size: 14px;
+  margin: 0;
+}
+.desc_c1{
+  font-size: 14px;
+  margin: 0;
+  color: #000;
+  font-family: 'OpenSans-Regular';
+  margin-bottom: 5px;
+}
+.list_action1{
+  li{
+    a{
+      color: #bb0303;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+#sync1{
+  margin-bottom: 2px;
+}
+#sync2{
+  .owl-item{
+    &.current{
+      .item{
+        &:after{
+          content: '';
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          height: 3px;
+          background-color: #c60000;
+        }
+        a{
+          color: #c60000;
+        }
+      }
+    }
+    .item{
+      background-color: #fff;
+      padding: 10px 15px;
+      text-align: center;
+      a{
+        color: #111111;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        text-decoration: none;
+        b{
+          font-family:'Helvetica Neue Bold';
+        }
+      }
+    }
+  }
+}
